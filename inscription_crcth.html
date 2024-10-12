@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscription_crcth.css">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <!-- En tete de la page -->
+    <header>
+        <img src="images_site_web/jpg/crcth_logo_web1.png" alt="logo du crcth" width="80px" title="Logo du CRCTH">
+        <nav>
+            <ul>
+            <li><a href="accueil_crcth.html">ACCUEIL </a><img src="icones/arrow_drop_down_jaune.png" alt="arrow_drop_down_jaune" width="13px"></li>
+            <li><a href="inscription_crcth.html">S'INSCRIRE</a><img src="icones/arrow_drop_down_jaune.png" alt="arrow_drop_down_jaune" width="13px"></li>
+            <li><a href="#">ACTUALITE</a><img src="icones/arrow_drop_down_jaune.png" alt="arrow_drop_down_jaune" width="13px"></li>
+            <li><a href="#">SERVICE TRAITEUR</a><img src="icones/arrow_drop_down_jaune.png" alt="arrow_drop_down_jaune" width="13px"></li>
+            <li><a href="#">A PROPOS DE NOUS</a><img src="icones/arrow_drop_down_jaune.png" alt="arrow_drop_down_jaune" width="13px"></li>
+            <li><a href="mailto:crcth007@gmail.com">CONTACTEZ-NOUS</a><img src="icones/arrow_drop_down_jaune.png" alt="arrow_drop_down_jaune" width="13px"></li>
+        </ul>
+        </nav>
+        <button><img src="icones/personne_blanc.png" alt="" width="40px" class="personne">Login</button>
+    </header>
+    <div class="form">
+            <h3 class="titre">INSCRIPTION</h3>
+            <form action="##">
+                <p>Nom</p>
+                <input type="text" name="Nom" id="nom" placeholder="Entrer votre nom" required>
+                <p>Prenom</p>
+                <input type="text" name="Prenom" id="prennom" placeholder="Entre votre prenom" required>
+                <p>Date de naissance</p>
+                <input type="date" name="date" id="date" required>
+                <p>Telephone</p>
+                <input type="tel" name="telephone" id="telephone" placeholder="Entrer votre numero de telephone" required> 
+                <p>Adresse</p>
+                <input type="text" name="adresse" id="adresse" placeholder="Entrer votre adresse" required> 
+                <p>Mail</p>
+                <input type="mail" name="mail" id="mail" placeholder="Entrer votre adresse email" required> 
+                <label for="sexe">Quel est votre sexe ?</label>
+                    <select name="sexe" id="sexe">
+                        <option value="Masculin">Masculin</option>
+                        <option value="Feminin">Feminin</option>
+                    </select>
+                <label for="sexe">Choisissez votre programme</label>
+                    <select name="programme" id="programme">
+                        <option value="Bureautique" title="Disponible en ligne">Bureautique</option>
+                        <option value="Bureautique">Coupe couture feminine</option>
+                        <option value="Bureautique">Coupe couture masculine</option>
+                        <option value="Bureautique">Cosmetologie</option>
+                        <option value="Cuisine et Patisserie">Cuisine et Patisserie</option>
+                        <option value="Bureautique">Decoration de gateau</option>
+                        <option value="Bureautique">Decoration evenenentielle</option>
+                        <option value="Bureautique">Haute couture</option>
+                    </select>
+                <label for="sexe">Choisissez un horaire</label>
+                    <select name="programme" id="programme">
+                        <option value="Cuisine et Patisserie">Lun-Mer-Ven : 8h AM-12h PM</option>
+                        <option value="Cuisine et Patisserie">Lun-Mer-Ven : 1h AM-5h PM</option>
+                        <option value="Cuisine et Patisserie">Mar-Jeu : 8h AM-1h PM</option>
+                        <option value="Cuisine et Patisserie">Mar-Jeu : 1h AM-5h PM</option>
+                        <option value="Cuisine et Patisserie">Sam-Dim : 8h AM-1h PM</option>
+                        <option value="Cuisine et Patisserie">Sam-Dim : 8h AM-1h PM</option>
+                        <option value="Cuisine et Patisserie">Sam-Dim : 1h AM-5h PM</option>
+                    </select> <br> <br>
+                <input type="submit" value="Soumettre"> &nbsp; &nbsp; &nbsp; &nbsp; <input type="reset" value="Supprimer">           
+                <!-- <p>Sexe</p>
+                <label for="Femme">Femme :</label>
+                <input type="radio" name="femme" id="femme">
+                <label for="Homme">Homme :</label>
+                <input type="radio" name="homme" id="homme"> -->
+            </form>
+        </div>
+    <footer>
+        <div>
+            <h1>"Une nouvelle formule pour former des cadres pour l'avenir"</h1>
+            <p>@crcth 2024, tout droit reserve</p>
+        </div>
+    </footer>
+</body>
+</html>
